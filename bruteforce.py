@@ -17,6 +17,10 @@ def attempt_extract(zf_handle, password):
 
 
 def main():
+      
+ # Iterate through password entries in rockyou.txt
+ # Attempt to extract the zip file using each password
+ # Handle correct password extract versus incorrect password attempt)
     print("[+] Beginning bruteforce ")
     with ZipFile('enc.zip') as zf:
         with open('rockyou.txt', 'rb') as f:
@@ -26,14 +30,7 @@ def main():
                     print(f"[+] Password found: {password.decode('utf-8')}")
                     return
     print("[-] Password not found in list")
-            # Write your logic here...
-            # Iterate through password entries in rockyou.txt
-
-            # Attempt to extract the zip file using each password
-
-            # Handle correct password extract versus incorrect password attempt)
-
-    #print("[+] Password not found in list")
+           
 
 if __name__ == "__main__":
     main()

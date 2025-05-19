@@ -32,15 +32,18 @@ The task emphasized breaking the encryption **ethically** using known password l
 
 ### 🔍 Start terminal
 Here i started executing the file in terminal initial screenshot of the pathway of the folder and starting bruteforce.
-![Terminal Screenshot](ransomware-decryption-bruteforce/screenshots/start.png)
+
+![Terminal Screenshot](https://github.com/HariCyber-Sec/ransomware-decryption-bruteforce/blob/main/screenshots/start.png)
 
 ### 🗂️ Executing the script (bruteforcing)
 Here i executed the script and it iterated through every combination using rockyou password list and gave us the password.
-![Encrypted File Structure](../screenshots/password.png)
+
+![Encrypted File Structure](https://github.com/HariCyber-Sec/ransomware-decryption-bruteforce/blob/main/screenshots/password.png)
 
 ### ✅ Successful Decryption Output
-After successful bruteforceing we decrypted the enc.zip and got a word doc file.   
-![Decryption Success](../screenshots/encrypted_contents.png)
+After successful bruteforceing we decrypted the enc.zip and got a word doc file.  
+
+![Decryption Success](https://github.com/HariCyber-Sec/ransomware-decryption-bruteforce/blob/main/screenshots/encryted_contents.png)
 Ransomware has thus been decrypted.
 
  

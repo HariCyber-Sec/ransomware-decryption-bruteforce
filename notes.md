@@ -22,49 +22,49 @@ The task emphasized breaking the encryption **ethically** using known password l
 
 ## 🔧 Technical Summary
 
-- Used **Python 3** with the built-in `zipfile` module to iterate over a provided wordlist.
-- The script attempted each password until it successfully extracted the contents.
-- This simulates a basic form of **offline brute force attack** using a subset of the popular RockYou wordlist.
+- Built using Python 3 the script loops through a list of common passwords to crack an encrypted ZIP file.
+- It automatically tries each password one by one until it finds the right one and unlocks the file.
+- This mimics how a basic offline brute-force attack works, using a trimmed-down version of the popular RockYou password list.
 
 ---
 
 ## 📸 Screenshots
 
-### 🔍 Script in Action
-![Terminal Screenshot](../screenshots/terminal-demo.png)
+### 🔍 Start terminal
+Here i started executing the file in terminal initial screenshot of the pathway of the folder and starting bruteforce.
+![Terminal Screenshot](ransomware-decryption-bruteforce/screenshots/start.png)
 
-### 🗂️ Encrypted Zip File and Wordlist
-![Encrypted File Structure](../screenshots/encrypted-folder.png)
+### 🗂️ Executing the script (bruteforcing)
+Here i executed the script and it iterated through every combination using rockyou password list and gave us the password.
+![Encrypted File Structure](../screenshots/password.png)
 
 ### ✅ Successful Decryption Output
-![Decryption Success](../screenshots/success-output.png)
+After successful bruteforceing we decrypted the enc.zip and got a word doc file.   
+![Decryption Success](../screenshots/encrypted_contents.png)
+Ransomware has thus been decrypted.
 
-> _Note: Replace the above image paths with your actual screenshots under `/screenshots/` folder._
-
----
-
-## 📚 Key Skills Practiced
-
-- Writing and running Python scripts to handle encrypted archives
-- Understanding brute-force logic and handling exceptions
-- Automation of security tasks in incident response situations
-- Simulating real-world blue team scenarios
+ 
 
 ---
 
-## 📌 Lessons Learned
+## 📚 Skills Practiced
 
-- Brute-force attacks can work on weak encryption if poor passwords are used.
-- Organizations should not rely on security through obscurity or default tooling.
-- Regular backups, employee awareness, and proper patching are essential to reduce ransomware impact.
-- Prevention is key, but **preparation for incident response** is just as important.
+- Learned how to write Python scripts to open and decrypt password-protected files.
+- Got hands-on with brute-force logic and built in error-handling to deal with failed attempts.
+- Practiced automating a common incident response task recovering files without paying ransom.
+- Simulated a real-world blue team scenario involving ransomware recovery under pressure.
+
+---
+
+## 📌 Takeways
+
+- Brute-force attacks can actually succeed when weak or common passwords are used for encryption.
+- Relying on default tools or hiding system details isn’t real security  it’s just wishful thinking.
+- Having regular backups, training employees, and staying on top of patches are must-haves to limit ransomware damage.
+- Stopping attacks is great, but  incident response when things go wrong is just as important.
 
 ---
 
-## 🤝 Acknowledgements
+ 
 
-- AIG Cybersecurity Team (Virtual Scenario)
-- Forage (Platform)
-- Wordlist: Subset from RockYou
-
----
+ 

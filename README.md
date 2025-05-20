@@ -27,6 +27,5 @@ To write a Python script that bruteforces the decryption key of a ransomware-enc
 - Rockyou password list (small subset for testing)
 
 ---
-
-## 📂 Folder Structure
+ 
 
